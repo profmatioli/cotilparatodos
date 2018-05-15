@@ -1,0 +1,8 @@
+{
+  "name": "CotilParaTodos",
+  "app_id": "5880f16b",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
