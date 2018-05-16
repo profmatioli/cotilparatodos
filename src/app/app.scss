@@ -14,3 +14,31 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.no-scroll {
+    scroll-content {
+        overflow-y: hidden;
+    }
+}
+
+.scroll {
+    scroll-content {
+        overflow-y: scroll;
+    }
+}
+
+.scroll-content {
+    overflow-y: auto !important;
+} 
+
+.menu-inner .item {
+    background-color: #387ef5;
+}
+
+
+.menu-inner > ion-header, 
+.menu-inner > ion-content, 
+.menu-inner > ion-footer {
+    background-color: #f09d17; 
+}
+
